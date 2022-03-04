@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14 - Faca Enquanto</title>
+
+    <!-- JS -->
+    <script>
+       
+       // Vetor
+       var cores = ["Azul", "Verde", "Amarelo", "Vermelho"]
+
+       // Exibir vetor
+       console.log(cores)
+
+       // Exibir inforacao de uma determinada posição
+       //document.write(cores[1])
+
+       // Exibir a quantidades dentro do array
+       //document.write(cores.length)
+
+       // Adcionar
+       cores.push("Roxo")
+
+       // Alterar
+       cores[1] = "Rosa"
+       
+       // Excluir usa splice ("comeca de onde",  "quantos serao excluidos")
+       cores.splice(2, 1)
+
+       //listando cores
+       for(var i = 0; i < cores.length; i++) {
+           document.write((i+1) + "ª " + cores[i] + '<br>')
+       }
+
+    </script> 
+</head>
+<body>
+    
+</body>
+</html>
